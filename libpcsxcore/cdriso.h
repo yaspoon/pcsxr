@@ -26,6 +26,7 @@ extern "C" {
 #endif
 
 int handleecm(const char *isoname, FILE* cdh, s32* accurate_length);
+int handlearchive(const char *isoname, s32* accurate_length);
 int aropen(FILE* fparchive, const char* _fn);
 void cdrIsoInit(void);
 int cdrIsoActive(void);
